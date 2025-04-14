@@ -72,7 +72,7 @@ const settings  = {
             {
                 name: 'awards',
                 items: [
-                    {name: 'vote', to: '/vote'},
+                    // {name: 'vote', to: '/vote'},
                     {name: 'about', to: '/about'},
                     {name: 'categories', to: '/categories'},
                     // {name: 'register', to: '/register'},
@@ -100,7 +100,7 @@ const settings  = {
         organizer_regno : 'VAT ID PL7792439665',
         event_name : 'E-commerce Germany Awards',
         event_location : 'Spindler & Klatt, Köpenicker Str. 16-17, 10997 Berlin',
-        event_date : '19th February 2025',
+        event_date : 'February 2026',
         event_hours : '10:00-17:00',
 
     },
@@ -364,7 +364,7 @@ const settings  = {
                     icon : "ShoppingCart",
                     label :  'sales',
                     buttons: [{
-                        href: "/vote/categories/sales",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -373,7 +373,7 @@ const settings  = {
                     icon : "Forum",
                     label : 'communication',
                     buttons: [{
-                        href: "/vote/categories/communication",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -382,7 +382,7 @@ const settings  = {
                     icon : "EmojiEmotions",
                     label : 'customers_experience',
                     buttons: [{
-                        href: "/vote/categories/customers_experience",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },                
@@ -391,7 +391,7 @@ const settings  = {
                     icon : "Public",
                     label : 'expansion',
                     buttons: [{
-                        href: "/vote/categories/expansion",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -400,7 +400,7 @@ const settings  = {
                     icon : "LocalShipping",
                     label : 'logistics',
                     buttons: [{
-                        href: "/vote/categories/logistics",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -409,7 +409,7 @@ const settings  = {
                     icon : "ForwardRounded",
                     label : 'fulfillment_optimization',
                     buttons: [{
-                        href: "/vote/categories/fulfillment_optimization",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -418,7 +418,7 @@ const settings  = {
                     icon : "Storefront",
                     label :  'platform',
                     buttons: [{
-                        href: "/vote/categories/platform",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -427,7 +427,7 @@ const settings  = {
                     icon : "MonetizationOn",
                     label : 'payment',
                     buttons: [{
-                        href: "/vote/categories/payment",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -436,7 +436,7 @@ const settings  = {
                     icon : "Assessment",
                     label : 'analytics',
                     buttons: [{
-                        href: "/vote/categories/analytics",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -445,7 +445,7 @@ const settings  = {
                     icon : "People",
                     label : 'agency',
                     buttons: [{
-                        href: "/vote/categories/agency",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -454,7 +454,7 @@ const settings  = {
                     icon : "ShoppingBasket",
                     label : 'omnichannel',
                     buttons: [{
-                        href: "/vote/categories/omnichannel",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -463,7 +463,7 @@ const settings  = {
                     icon : "Computer",
                     label : 'infrastructure',
                     buttons: [{
-                        href: "/vote/categories/infrastructure",
+                        href: "/winners",
                         label: "common.vote_now"
                     }]
                 },
@@ -541,20 +541,20 @@ const settings  = {
         
         items : [
 
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428717/EGA24/photos%20for%20www/i-hs4vJj7-X3.jpg", cols: 8},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1744052101/i-m9NF67p-X3_dg7vut.jpg", cols: 6},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1744052100/i-2pKkwGt-X3_dsbkxa.jpg", cols: 6},
+
+
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1744052101/i-7V8Cjzb-X3_dufmsv.jpg", cols: 8},
+            {src: "https://res.cloudinary.com/eventjuicer/image/upload/c_fit/v1744052097/Copy_of_Copy_of_i-WBC9BQz-XL_ihbvzr.jpg", cols: 4},
+
+
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428731/EGA24/photos%20for%20www/i-Sd9jzLS-X3.jpg", cols: 4},
+            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428717/EGA24/photos%20for%20www/i-hs4vJj7-X3.jpg", cols: 8},
 
 
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428391/EGA24/photos%20for%20www/i-tx38gTd-X3.jpg", cols: 6},
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428725/EGA24/photos%20for%20www/i-HW5DmVb-X3.jpg", cols: 6},
-
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428727/EGA24/photos%20for%20www/i-MqmmHDN-X3.jpg", cols: 6},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428732/EGA24/photos%20for%20www/i-6FCKW7J-X3.jpg", cols: 6},
-
-  
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428723/EGA24/photos%20for%20www/i-DrwPSBj-X3.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428723/EGA24/photos%20for%20www/i-xFTGjz2-X3.jpg", cols: 4},
-            {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428722/EGA24/photos%20for%20www/i-FNnfzDd-X3.jpg", cols: 4},
 
 
             {src: "https://res.cloudinary.com/ecommerceberlin/image/upload/v1710428718/EGA24/photos%20for%20www/i-6phWm7H-X3.jpg", cols: 6},

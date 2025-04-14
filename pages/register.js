@@ -14,7 +14,7 @@ import RegForm from '../src/RegForm'
 import Intro from '../src/Intro'
 import Jurors from '../src/Jurors'
 import settings from '../settings';
-import {Winners2024} from '../src/Winners'
+import {Winners2025} from '../src/Winners'
 
 const PageIndex = (props) => (
 
@@ -26,7 +26,7 @@ const PageIndex = (props) => (
   {/* <WidgetVideoWithEventInfo /> */}
   <WidgetFaq setting="contestant.faq" />
   <Jurors />
-  <Winners2024 />
+  <Winners2025 />
   <WidgetPhotostream setting="awardsphotostream" />
   <AllPartners />
 

@@ -34,7 +34,7 @@ const PageIndex = (props) => (
   </Wrapper> */}
   <Categories dense={false} typography={undefined} secondaryTypography={undefined} wrapperProps={{label: "awards.voting.cta"}}/>
   {/* <RegForm /> */}
-  <IntroRegformTimeline />
+  {/* <IntroRegformTimeline /> */}
   <Jurors limit={8} />
   <Box textAlign="center" mt={2} >
     <MyButton
@@ -46,9 +46,9 @@ const PageIndex = (props) => (
   </Box>
   <WidgetPhotostream setting="awardsphotostream" />
   <Wrapper label="awards.ceremony.title">
-    <EmbedSection data="https://www.youtube.com/watch?v=ymXfBldjdKo&t" playerProps={{light: true}}/>
+    <EmbedSection data="https://youtu.be/NF0LRYdqt6o?si=gMTzhQ-Q75eHk9v3" playerProps={{light: true}}/>
   </Wrapper>
-  <WidgetPremiumTickets label="resources.awards.premium.title"  />
+  {/* <WidgetPremiumTickets label="resources.awards.premium.title"  /> */}
   {/* <Winners2024 /> */}
 
   <WidgetFaq setting="contestant.faq" />

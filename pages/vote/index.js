@@ -33,7 +33,7 @@ import settings from '../../settings'
 
 import {Categories} from '../../src/icons' 
 
-import {Winners2024} from '../../src/Winners'
+import {Winners2025} from '../../src/Winners'
 import IntroRegformTimeline from '../../src/IntroRegformTimeline';
 
 const PageVote = (props) => (
@@ -66,7 +66,7 @@ const PageVote = (props) => (
       </Box>
       </Wrapper>
       <IntroRegformTimeline />
-      <Winners2024 />
+      <Winners2025 />
       <WidgetVideoWithEventInfo />
 
 
